@@ -2,7 +2,22 @@ import re
 
 
 # TODO: Must make the list update as new entries are added because the scouts will not have all the info at once.
-# TODO: Update ReadME to be better.
+# TODO: Update ReadME to be better.]
+""" TODO: Sort location groups based off shortest first time_left. Otherwise
+1,fh,10
+2,wa,15
+3,fh,8
+4,mta,25
+5,fh,20
+
+may be
+
+4, mta, 25
+3, fh, 8
+1, fh, 10
+5, fh, 20
+2, wa, 15
+"""
 
 
 big_list = []
