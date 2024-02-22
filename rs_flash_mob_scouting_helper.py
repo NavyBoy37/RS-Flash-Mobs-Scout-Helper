@@ -2,6 +2,7 @@ import re
 
 
 # TODO: Must make the list update as new entries are added because the scouts will not have all the info at once.
+# TODO: Update ReadME to be better.
 
 
 big_list = []
