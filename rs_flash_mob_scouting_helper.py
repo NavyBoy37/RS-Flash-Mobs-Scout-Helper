@@ -56,7 +56,9 @@ all_names = [
 
 #   User input and regex system.  Ensures input will be recognized with commas, weird spaces, and extra letters/numbers
 #   utilized regex101.com for the purpose
+print("Valid Location Ex: pp, mta, uzer, mena, edge, fh, wa, pw, seers")
 print("world, location, time left")
+
 while True:
     try:
         line = input()
@@ -85,6 +87,9 @@ while True:
 
         if str(result.group(2)).strip() in poison_waste_names:
             clean_location = 80008 #pw
+
+        if str(result.group(2)).strip() in seers_village_names:
+            clean_location = 90009 #seers 
 
     except KeyboardInterrupt:
         break
@@ -128,6 +133,9 @@ for obj in big_list:
 
     if obj.location==80008:
         obj.location="pw"
+
+    if obj.location==90009:
+        obj.location="seers"
 
 
 
