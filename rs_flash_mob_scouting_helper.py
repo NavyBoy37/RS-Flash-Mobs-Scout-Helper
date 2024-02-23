@@ -1,6 +1,6 @@
 import re
 
-# TODO: Add all locations and alternative names for normalizing.
+# TODO: Add all locations and alternative names for normalizing. ^^
 # TODO: Must make the list update as new entries are added because the scouts will not have all the info at once.
 # TODO: Update ReadME to be better.]
 """ TODO: Sort location groups based off shortest first time_left. Otherwise
@@ -39,6 +39,7 @@ edge_names = ['edge','edgeville','ev','edg','edgevill','edgev']
 hills_names = ['fh','hills','feldip','fell','fel','f hills']
 west_ardougne_names = ['wa','west','ardougne','west ardougne','ardy','doug']
 poison_waste_names = ['pw','poison waste','poison','waste','prif']
+seers_village_names = ['seers','sv','village','seer','srs','seers village','vill']
 
 all_names = [
     port_phas_names,
