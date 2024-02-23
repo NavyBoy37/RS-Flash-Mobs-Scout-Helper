@@ -7,13 +7,15 @@ To give RuneScape (RS) Demon Flash Mobs scouts an easy way to sort the bosses by
 ## What is Runescape's Demon Flash Mobs?
 "Demon Flash Mobs" is a *Distraction and Diversion* that was released in January, 2013.  These bosses spawn in certain locations across Gilenoir and are meant for groups to fight.  Notable drops are title scrolls which can be sold or used to add a title to your in game name.  So long as enough damage is dealt, you are entitled to a drop as if you fought the boss alone.
 
+Friend's Chat:  <i>NoWildy FC<i>
+
 ## Terminology
 
 Below I will explain common terms used in the groups that participate in these events along with sections of the program as appropriate.
 
 ### Location Names
 
-This program accounts for 8 locations as of now.  Normalized nomenclature will be as follows.
+This program accounts for 9 locations as of now.  Normalized nomenclature will be as follows.
 
 ```
 pp -> Port Phasmatys
@@ -24,6 +26,7 @@ edge -> Edgeville
 fh -> Feldip Hills
 wa -> West Ardougne
 pw -> Poison Wastes
+seers-> Seers Village
 ```
 
 Multiple spellings of each location will be accepted and converted to these abbreviations.
