@@ -1,7 +1,7 @@
 import re
 
 # TODO: Must make the list update as new entries are added because the scouts will not have all the info at once.
-# TODO: Update ReadME to be better.]
+
 """ TODO: Sort location groups based off shortest first time_left. Otherwise
 1,fh,10
 2,wa,15
