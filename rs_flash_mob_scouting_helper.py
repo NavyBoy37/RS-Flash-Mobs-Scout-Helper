@@ -1,4 +1,4 @@
-import re
+from re import search, IGNORECASE
 
 # TODO: Must make the list update as new entries are added because the scouts will not have all the info at once.
 
@@ -68,9 +68,7 @@ print("world, location, time left")
 while True:
     try:
         line = input()
-        result = re.search(
-            "(\d{1,3}\s*),(\s*[\w\s]+),(\s*\d{1,2})", line, re.IGNORECASE
-        )
+        result = search("(\d{1,3}\s*),(\s*[\w\s]+),(\s*\d{1,2})", line, IGNORECASE)
 
         if str(result.group(2)).strip() in port_phas_names:
             clean_location = 10001  # pp,  this block of code converts location data to numbers for sorting
