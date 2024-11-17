@@ -150,6 +150,6 @@ for obj in big_list:
         obj.location = "seers"
 
 
-print("--------------")
+print("-------------")
 for obj in big_list:
     print(f"{obj.world}, {obj.location}, {obj.time_left}")
